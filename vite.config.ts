@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: 'Chatbot-FlowBuilder',
+  base: '/Chatbot-FlowBuilder/',
   server: {
     host: "::",
     port: 3000,
